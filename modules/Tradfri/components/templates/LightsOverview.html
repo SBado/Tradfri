@@ -1,0 +1,10 @@
+﻿<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2" style="margin-top:15px;" ng-repeat="light in $ctrl.lights">
+            <smart-light light-index="light.index"
+                         light-name="light.name"
+                         light-status="$ctrl.states[light.index]"
+                         light-switch="$ctrl.switchLight"></smart-light>
+        </div>
+    </div>
+</div>

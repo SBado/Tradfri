@@ -1,0 +1,7 @@
+﻿<div>    
+    <label>Nome: {{$ctrl.lightName}}</label>
+    <br/>
+    <label>Stato: {{$ctrl.lightStatus ? 'Accesa' : 'Spenta'}}</label>
+    <br/>
+    <button ng-click="$ctrl.lightSwitch($ctrl.lightIndex)">{{$ctrl.lightStatus ? 'Spegni' : 'Accendi'}}</button>
+</div>
