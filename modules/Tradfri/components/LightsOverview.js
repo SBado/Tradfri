@@ -27,7 +27,7 @@
             //Gets Called if the connection has successfully been established
             onSuccess: onConnect,
             userName: "ste",
-            password: "kuM16&5U$rl32S0@Z#qc",
+            password: "aRK9v6XvM^O1mYD*^saS",
             useSSL: true
         };
 
